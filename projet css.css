@@ -1,0 +1,394 @@
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #3498db;
+  }
+  
+  .footer-section p {
+    color: #bdc3c7;
+  }
+  
+ 
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #34495e;
+  }
+  
+  .footer-bottom a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+ 
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #34495e;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2980b9;
+  }
+  
+ .btn{
+  color:white;
+  font-size:18px;
+  position:relative;
+  top:-4px;
+}
+.co{
+  color: #000000;
+  border:0px solid;
+  border-radius:20px;
+  background-color:#2c3e50;
+
+}
+ .btn:hover{
+  color:rgb(143, 143, 143);
+ }
+  #prscroll {
+    background-image:url(https://th.bing.com/th/id/R.0299db6d7cd1fa0305669fd1c709b514?rik=qWbCcOsNrj6Rhg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f03%2f28%2f401364-sky-aircraft-clouds-passenger_aircraft-wings-flying-planes-Boeing-Boeing_747.jpg&ehk=y2fC8owhMwXzPTTQYPwd41l1N%2bguwn17o47MKmaZHFk%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .inpcon{
+    border:1px solid black;
+    background-color: #b0b0b0;
+    border-radius:20px;
+    height:40px;
+    width:200px;
+    padding:0 10px;
+  }
+  ::placeholder{
+    color: #fff;
+  }
+  .mot{
+    color: black;
+    position:relative;bottom:20px;
+    text-decoration:underline;
+  }
+  .connect{
+    border:1px solid rgb(0, 0, 0);
+    border-radius:20px;
+    padding:7px 130px;
+    text-decoration: none;
+    background-color: rgb(3,79,255);
+    position: relative;
+    color:white;
+  }
+  h1#acc {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .toop {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .toop3 {
+    margin-right: 20px;
+  }
+  
+  .tu {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .tu:hover {
+    color: #bdc3c7;
+  }
+  
+  .para {
+    text-align: center;
+    padding:60px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation:moving 2s infinite;
+    width:850px;
+    text-align: center;
+    margin:130px 200px;
+  }
+  @keyframes moving {
+    0%{background-color:rgba(255, 255, 255, 0.648);}
+    50%{background-color: rgba(222, 184, 135, 0.381);}
+    100%{background-color:rgba(255, 255, 255, 0.648) ;}
+  }
+  .lg {
+    font-size:50px;
+    color: black;
+  }
+  
+  .md {
+    font-size:20px;
+    color: #19191a;
+    margin-top: 20px;
+  }
+  
+  .container {
+    padding:0 40px;
+  }
+  
+  .btn-primary {
+    background-color: #004e82;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+
+  .voy {
+    text-align: center;
+    color: #333;
+    position: relative;
+    left: -5px;
+  }
+  
+  .voyage-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .voyage-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px rgba(50, 50, 50, 0.449);
+    transition: background-color 0.3s ease, color 0.3s ease, margin 0.3s ease;
+    text-align: center;
+  }
+  .voyage-list li:hover {
+    background-color: rgb(217, 214, 57);
+    color: #000000;
+    margin: 10px 0;
+    text-align: left;
+    transition:text-align 1s;
+  }
+  
+  .voyage-list li{
+    opacity:1;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  #ticket {
+    text-decoration:none;
+    color: rgb(0, 62, 154);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 100px;
+    position: relative;
+    left: 400px;
+  }
+  
+  .duree {
+    position: relative;
+    left: 600px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .voyage-list li:hover .duree {
+    animation: my 1s infinite;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    width: fit-content;
+    transition:width 2s;
+  }
+  .voyage-list li:hover #ticket{
+    display:block;
+    opacity:1;
+  }
+  
+  @keyframes my {
+    0% {
+      display: none;
+      color: #fff;
+    }
+    50% {
+      display: block;
+      color: rgb(0, 0, 0);
+    }
+    100% {
+      display: none;
+      color: #fff;
+    }
+  }
+  
+  .photo-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .photo-container li {
+  position: relative;
+  list-style-type: none;
+  margin: 10px;
+  width: 300px; 
+  height: 200px; 
+  }
+  
+  .photo-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  }
+  
+  .photo-container .description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  }
+  .description{
+    font-size:18px;
+  }
+  
+  .photo-container li:hover img {
+  opacity: 0.2;
+  }
+  
+  .photo-container li:hover .description {
+  opacity: 1;
+  }
+  #ex-photo{
+    background-color: currentColor;
+    height:100%;
+  }
+  .bell{
+    color: #fff;
+    font-size:30px;
+    text-align: center;
+  }
+ 
+  .plan {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .gps {
+    width: 100%;
+    height: 450px;
+    border: 5px solid #3498db;
+    border-radius: 10px;
+  }
+  
+ 
+  footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #3498db;
+  }
+  
+  .footer-section p {
+    color: #bdc3c7;
+  }
+  
+ 
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #2c3e50;
+  }
+  
+  .footer-bottom a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .footer-section {
+      flex: 1 0 100%;
+    }
+  
+    .photo-container li {
+      flex: 1 0 100%;
+    }
+  }
+  @media screen and (max-width:600px){
+    .para{position: relative;right:200px;
+      
+      
+    }
+  }
